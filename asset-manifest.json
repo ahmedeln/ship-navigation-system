@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/ship-navigation-system/static/css/main.79fb7518.css",
+    "main.js": "/ship-navigation-system/static/js/main.276c8c47.js",
+    "static/media/ecdis page.png": "/ship-navigation-system/static/media/ecdis page.3fc791d7617426dbd5aa.png",
+    "static/media/Engine page.png": "/ship-navigation-system/static/media/Engine page.9777956134dfed890ff4.png",
+    "static/media/alarm page.png": "/ship-navigation-system/static/media/alarm page.44ea764951e89571dbb1.png",
+    "static/media/rudder page.png": "/ship-navigation-system/static/media/rudder page.523acd59337f94611b24.png",
+    "static/media/radar page.png": "/ship-navigation-system/static/media/radar page.565c06f6b18bd12a40a2.png",
+    "static/media/anemometer page.png": "/ship-navigation-system/static/media/anemometer page.c0bdf277a206daa1465f.png",
+    "static/media/echo page.png": "/ship-navigation-system/static/media/echo page.183863085aa781036bde.png",
+    "static/media/compass page.png": "/ship-navigation-system/static/media/compass page.c93f24ba17a42eef1467.png",
+    "static/media/vessel page.png": "/ship-navigation-system/static/media/vessel page.522412589754b7f86517.png",
+    "static/media/background.png": "/ship-navigation-system/static/media/background.92686e480359c4445300.png",
+    "static/media/speed page.png": "/ship-navigation-system/static/media/speed page.dfe0ea97eefb37d23b3d.png",
+    "static/media/radar.jpg": "/ship-navigation-system/static/media/radar.58f2cc1f4fd413a1823b.jpg",
+    "static/media/compass.jpg": "/ship-navigation-system/static/media/compass.087a4cc7dc802d976282.jpg",
+    "static/media/anemometer.png": "/ship-navigation-system/static/media/anemometer.db0e34669d993f9a2fe8.png",
+    "static/media/echo.jpg": "/ship-navigation-system/static/media/echo.954c57e59fd2ba4d6152.jpg",
+    "static/media/vessel.png": "/ship-navigation-system/static/media/vessel.48adcd2f5d8079035ad5.png",
+    "static/media/gps.jpg": "/ship-navigation-system/static/media/gps.739df7350877c466cf29.jpg",
+    "static/media/fule.png": "/ship-navigation-system/static/media/fule.8661a3722375c77c8c92.png",
+    "static/media/gps page.jpg": "/ship-navigation-system/static/media/gps page.4d7b87a87a2c507fe289.jpg",
+    "static/media/alarm.jpg": "/ship-navigation-system/static/media/alarm.fe957ac0ae18d61837c0.jpg",
+    "static/media/ecdis.jpg": "/ship-navigation-system/static/media/ecdis.fe412525dbb84ebc7525.jpg",
+    "static/media/engine.png": "/ship-navigation-system/static/media/engine.1f91b3ff7ca6ce464034.png",
+    "static/media/rudder.png": "/ship-navigation-system/static/media/rudder.6da157500219621c2005.png",
+    "static/media/speed.png": "/ship-navigation-system/static/media/speed.dd2353873b48c38a5ef7.png",
+    "index.html": "/ship-navigation-system/index.html",
+    "main.79fb7518.css.map": "/ship-navigation-system/static/css/main.79fb7518.css.map",
+    "main.276c8c47.js.map": "/ship-navigation-system/static/js/main.276c8c47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79fb7518.css",
+    "static/js/main.276c8c47.js"
+  ]
+}
