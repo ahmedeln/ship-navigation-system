@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ship-navigation-system/static/css/main.79fb7518.css",
-    "main.js": "/ship-navigation-system/static/js/main.276c8c47.js",
+    "main.css": "/ship-navigation-system/static/css/main.3cb924eb.css",
+    "main.js": "/ship-navigation-system/static/js/main.f2c8bf11.js",
     "static/media/ecdis page.png": "/ship-navigation-system/static/media/ecdis page.3fc791d7617426dbd5aa.png",
     "static/media/Engine page.png": "/ship-navigation-system/static/media/Engine page.9777956134dfed890ff4.png",
     "static/media/alarm page.png": "/ship-navigation-system/static/media/alarm page.44ea764951e89571dbb1.png",
@@ -27,11 +27,11 @@
     "static/media/rudder.png": "/ship-navigation-system/static/media/rudder.6da157500219621c2005.png",
     "static/media/speed.png": "/ship-navigation-system/static/media/speed.dd2353873b48c38a5ef7.png",
     "index.html": "/ship-navigation-system/index.html",
-    "main.79fb7518.css.map": "/ship-navigation-system/static/css/main.79fb7518.css.map",
-    "main.276c8c47.js.map": "/ship-navigation-system/static/js/main.276c8c47.js.map"
+    "main.3cb924eb.css.map": "/ship-navigation-system/static/css/main.3cb924eb.css.map",
+    "main.f2c8bf11.js.map": "/ship-navigation-system/static/js/main.f2c8bf11.js.map"
   },
   "entrypoints": [
-    "static/css/main.79fb7518.css",
-    "static/js/main.276c8c47.js"
+    "static/css/main.3cb924eb.css",
+    "static/js/main.f2c8bf11.js"
   ]
 }
