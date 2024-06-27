@@ -38,6 +38,10 @@ const Test = () => {
 
   return (
     <div style={{ backgroundImage: `url(${image10})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      
+      <div  className="flex items-center justify-center p-16">
+        <p className="text-white text-5xl">Welcome to ship navigation system</p>
+      </div>
       <div className="flex items-center justify-center min-h-screen ">
         <table className="  w-full lg:w-4/5 max- ">
           <tbody>
