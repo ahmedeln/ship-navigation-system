@@ -1,5 +1,6 @@
   import React, { useState, useEffect } from "react";
   import { useGeolocated } from "react-geolocated";
+  import backgroundImage from '../../assets/main_icons/background.png'
 
   import './style.css';
 
@@ -108,12 +109,23 @@
     };
 
     return (
-      <div className="App">
-        <div>myPointStyle: {myPointStyle}</div>
+      <div
+      className=" text-white h-screen"
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: '100% 100%', // Stretches the image to fit the container
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        padding: '2rem',
+        borderRadius: '8px',
+      }}
+    >
+      <div className='flex justify-center'>
+      <div className="App mt-40 bg-white pt-16 pb-16 w-fit pl-16 pr-16">
+        {/* <div>myPointStyle: {myPointStyle}</div>
         <div>pointDegree: {pointDegree}</div>
         <div>Latitude: {coords?.latitude}</div>
-        <div>Longitude: {coords?.longitude}</div>
-        <h1>Hello CodeSandbox</h1>
+        <div className="pb-20">Longitude: {coords?.longitude}</div> */}
         <div className="compass">
           <div className="arrow" />
           <div
@@ -125,6 +137,8 @@
         <button className="start-btn" onClick={startCompass}>
           Start compass
         </button>
+      </div>
+      </div>
       </div>
     );
   }
