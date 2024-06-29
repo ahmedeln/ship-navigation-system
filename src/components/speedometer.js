@@ -1,7 +1,6 @@
 // Speedometer.js
 import React from 'react';
 import ReactSpeedometer from 'react-d3-speedometer';
-import backgroundImage from '../assets/main_icons/background.png'; 
 
 
 const Speedometer = ({ speed, min , max }) => {
@@ -18,7 +17,7 @@ const Speedometer = ({ speed, min , max }) => {
   };
 
   return (
-    <div className='mt-20 ml-64 text-white'>
+    <div className=' text-white'>
         <div style={containerStyle}>
       <div style={speedometerStyle}>
         <ReactSpeedometer
