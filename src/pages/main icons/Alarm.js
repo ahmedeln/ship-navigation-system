@@ -15,13 +15,12 @@ const Alarm = () => {
   const att4 = 13955
 
   return (
-    <div className="text-white"  style={{
+    <div className="text-white" style={{
       backgroundImage: `url(${backgroundImage})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
-      padding: '2rem',
       borderRadius: '8px',
-}}>
+    }}>
       <div className='text-7xl text-center'>Propulsion system</div>
       <div className='flex flex-row'>
         <div className=' h-screen w-1/2 flex flex-col '>
@@ -34,76 +33,82 @@ const Alarm = () => {
                 <b className='h-1/4 pt-2 ml-5 text-3xl text-'>RPM</b>
                 <b className='h-1/4 ml-5 text-3xl'>{att1}</b>
                 <div className='h-2/4 w-3/4 ml-5 '>
-                <MantineProvider>
-                  <Progress
-                  value={80}
-                  size="xl"
-                  color="blue"
-                />
-                </MantineProvider>
+                  <MantineProvider>
+                    <Progress
+                      value={80}
+                      size="xl"
+                      color="blue"
+                    />
+                  </MantineProvider>
                 </div>
               </div>
               <div className='w-full h-full  flex flex-col '>
                 <b className='h-1/4 pt-2 ml-5 text-3xl text-'>Tourqe</b>
                 <b className='h-1/4 ml-5 text-3xl'>{att2}</b>
                 <div className='h-2/4 w-3/4 ml-5 '>
-                <MantineProvider>
-                  <Progress
-                  value={80}
-                  size="xl"
-                  color="blue"
-                />
-                </MantineProvider>
+                  <MantineProvider>
+                    <Progress
+                      value={80}
+                      size="xl"
+                      color="blue"
+                    />
+                  </MantineProvider>
                 </div>
               </div>
 
             </div>
             <div className='flex flex-col w-1/2 '>
-            <div className='w-full h-full  flex flex-col '>
+              <div className='w-full h-full  flex flex-col '>
                 <b className='h-1/4 pt-2 ml-5 text-3xl text-'>Actual power</b>
                 <b className='h-1/4 ml-5 text-3xl'>{att3}</b>
                 <div className='h-2/4 w-3/4 ml-5 '>
-                <MantineProvider>
-                  <Progress
-                  value={80}
-                  size="xl"
-                  color="blue"
-                />
-                </MantineProvider>
+                  <MantineProvider>
+                    <Progress
+                      value={80}
+                      size="xl"
+                      color="blue"
+                    />
+                  </MantineProvider>
                 </div>
               </div>
               <div className='w-full h-full  flex flex-col '>
                 <b className='h-1/4 pt-2 ml-5 text-3xl text-'>Average power</b>
                 <b className='h-1/4 ml-5 text-3xl'>{att4}</b>
                 <div className='h-2/4 w-3/4 ml-5 '>
-                <MantineProvider>
-                  <Progress
-                  value={80}
-                  size="xl"
-                  color="blue"
-                />
-                </MantineProvider>
+                  <MantineProvider>
+                    <Progress
+                      value={80}
+                      size="xl"
+                      color="blue"
+                    />
+                  </MantineProvider>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className=' h-screen w-1/2 flex flex-col'>
-          <div className=' h-1/2 w-full flex justify-center items-center'>
-          <img className="h-full w-full ml-64 mt-44" src={alarm1} alt="vessel page" />
+        <div className=' h-screen w-1/2 flex flex-col bg-red600'>
 
+
+          <div className=' h-1/2 w-full flex justify-center items-center mt-16'>
+          
+            <img className="h-96" src={alarm1} alt="vessel page" />
           </div>
 
-          <div className=' h-1/2 w-full flex flex-row'>
+          <div className=' h-1/2  flex flex-row justify-between mt-14 '>
 
-            <div className='400 w-1/2 h-full '>
-            <img className="h-full w-full ml-28 " src={alarm2} alt="vessel page" />
+            <div className='400 w-1/2 h-full ml-5 mr-5'>
+              <img className="h-60 " src={alarm2} alt="vessel page" />
             </div>
 
-            <div className=' w-1/2 h-full '>        
-            <img 
-            className="h-full w-full ml-28  " src={alarm3} alt="vessel page" />
+
+
+            <div className=' w-1/2 h-full ml-5 mr-5 '>
+              <img
+                className="h-60  " src={alarm3} alt="vessel page" />
             </div>
+
+
           </div>
         </div>
       </div>
