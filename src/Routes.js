@@ -13,6 +13,8 @@ import Speed from "./pages/main icons/Speed";
 import ECDIS from "./pages/main icons/ECDIS";
 import Rudder from "./pages/main icons/Rudder";
 import Echo from "./pages/main icons/Echo";
+import Speedometer from "./pages/Tester";
+import RPMEngineSpeed from "./pages/tester2";
 
 const MainRoutes = () => {
     const routes = createHashRouter([
@@ -71,8 +73,17 @@ const MainRoutes = () => {
         {
             path: "/echo",
             element: <Echo />,
+        }, 
+        {
+            path: "/speedometer",
+            element: <Speedometer />,
+        }, 
+        {
+            path: "/test2",
+            element: <RPMEngineSpeed />,
         },        
     ])
+    
     return <RouterProvider router={routes} />;
 }
 
