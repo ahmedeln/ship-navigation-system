@@ -15,6 +15,7 @@ import Rudder from "./pages/main icons/Rudder";
 import Echo from "./pages/main icons/Echo";
 import Speedometer from "./pages/Tester";
 import RPMEngineSpeed from "./pages/tester2";
+import Testy from "./pages/test/Testy";
 
 const MainRoutes = () => {
     const routes = createHashRouter([
@@ -81,6 +82,10 @@ const MainRoutes = () => {
         {
             path: "/test2",
             element: <RPMEngineSpeed />,
+        },    
+        {
+            path: "/testy",
+            element: <Testy />,
         },        
     ])
     
